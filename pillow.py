@@ -1,7 +1,7 @@
 from selenium import webdriver
 from PIL import Image
 from urllib import request
-import io
+
 
 browser = webdriver.Chrome()
 browser.get('https://scraping-for-beginner.herokuapp.com/image')
